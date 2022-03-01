@@ -1,0 +1,2 @@
+# YNPageViewController-swift
+YNPageViewController的swift版本，详细使用请参考https://github.com/yongyuandouneng/YNPageViewController
