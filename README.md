@@ -1,5 +1,5 @@
 # YNPageViewController-swift
-YNPageViewController的swift版本，详细使用请参考https://github.com/yongyuandouneng/YNPageViewController
+YNPageViewController的swift版本，OC版本传送门：https://github.com/yongyuandouneng/YNPageViewController
 
 ## 支持环境
 * iOS 10+
