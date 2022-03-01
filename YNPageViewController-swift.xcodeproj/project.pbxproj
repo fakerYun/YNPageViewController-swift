@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3395938527CDB6910047814E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3395938427CDB6910047814E /* AppDelegate.swift */; };
+		3395938727CDB6910047814E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3395938627CDB6910047814E /* SceneDelegate.swift */; };
+		3395938927CDB6910047814E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3395938827CDB6910047814E /* ViewController.swift */; };
+		3395938C27CDB6910047814E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3395938A27CDB6910047814E /* Main.storyboard */; };
+		3395938E27CDB6920047814E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3395938D27CDB6920047814E /* Assets.xcassets */; };
+		3395939127CDB6920047814E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3395938F27CDB6920047814E /* LaunchScreen.storyboard */; };
+		3395939C27CDB6920047814E /* YNPageViewController_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3395939B27CDB6920047814E /* YNPageViewController_swiftTests.swift */; };
+		339593A627CDB6920047814E /* YNPageViewController_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339593A527CDB6920047814E /* YNPageViewController_swiftUITests.swift */; };
+		339593A827CDB6920047814E /* YNPageViewController_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339593A727CDB6920047814E /* YNPageViewController_swiftUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3395939827CDB6920047814E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3395937927CDB6910047814E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3395938027CDB6910047814E;
+			remoteInfo = "YNPageViewController-swift";
+		};
+		339593A227CDB6920047814E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3395937927CDB6910047814E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3395938027CDB6910047814E;
+			remoteInfo = "YNPageViewController-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3395938127CDB6910047814E /* YNPageViewController-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YNPageViewController-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3395938427CDB6910047814E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3395938627CDB6910047814E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3395938827CDB6910047814E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3395938B27CDB6910047814E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3395938D27CDB6920047814E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3395939027CDB6920047814E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3395939227CDB6920047814E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3395939727CDB6920047814E /* YNPageViewController-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YNPageViewController-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3395939B27CDB6920047814E /* YNPageViewController_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNPageViewController_swiftTests.swift; sourceTree = "<group>"; };
+		339593A127CDB6920047814E /* YNPageViewController-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YNPageViewController-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		339593A527CDB6920047814E /* YNPageViewController_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNPageViewController_swiftUITests.swift; sourceTree = "<group>"; };
+		339593A727CDB6920047814E /* YNPageViewController_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YNPageViewController_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3395937E27CDB6910047814E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3395939427CDB6920047814E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3395939E27CDB6920047814E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3395937827CDB6910047814E = {
+			isa = PBXGroup;
+			children = (
+				3395938327CDB6910047814E /* YNPageViewController-swift */,
+				3395939A27CDB6920047814E /* YNPageViewController-swiftTests */,
+				339593A427CDB6920047814E /* YNPageViewController-swiftUITests */,
+				3395938227CDB6910047814E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3395938227CDB6910047814E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3395938127CDB6910047814E /* YNPageViewController-swift.app */,
+				3395939727CDB6920047814E /* YNPageViewController-swiftTests.xctest */,
+				339593A127CDB6920047814E /* YNPageViewController-swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3395938327CDB6910047814E /* YNPageViewController-swift */ = {
+			isa = PBXGroup;
+			children = (
+				3395938427CDB6910047814E /* AppDelegate.swift */,
+				3395938627CDB6910047814E /* SceneDelegate.swift */,
+				3395938827CDB6910047814E /* ViewController.swift */,
+				3395938A27CDB6910047814E /* Main.storyboard */,
+				3395938D27CDB6920047814E /* Assets.xcassets */,
+				3395938F27CDB6920047814E /* LaunchScreen.storyboard */,
+				3395939227CDB6920047814E /* Info.plist */,
+			);
+			path = "YNPageViewController-swift";
+			sourceTree = "<group>";
+		};
+		3395939A27CDB6920047814E /* YNPageViewController-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				3395939B27CDB6920047814E /* YNPageViewController_swiftTests.swift */,
+			);
+			path = "YNPageViewController-swiftTests";
+			sourceTree = "<group>";
+		};
+		339593A427CDB6920047814E /* YNPageViewController-swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				339593A527CDB6920047814E /* YNPageViewController_swiftUITests.swift */,
+				339593A727CDB6920047814E /* YNPageViewController_swiftUITestsLaunchTests.swift */,
+			);
+			path = "YNPageViewController-swiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3395938027CDB6910047814E /* YNPageViewController-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339593AB27CDB6920047814E /* Build configuration list for PBXNativeTarget "YNPageViewController-swift" */;
+			buildPhases = (
+				3395937D27CDB6910047814E /* Sources */,
+				3395937E27CDB6910047814E /* Frameworks */,
+				3395937F27CDB6910047814E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YNPageViewController-swift";
+			productName = "YNPageViewController-swift";
+			productReference = 3395938127CDB6910047814E /* YNPageViewController-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3395939627CDB6920047814E /* YNPageViewController-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339593AE27CDB6920047814E /* Build configuration list for PBXNativeTarget "YNPageViewController-swiftTests" */;
+			buildPhases = (
+				3395939327CDB6920047814E /* Sources */,
+				3395939427CDB6920047814E /* Frameworks */,
+				3395939527CDB6920047814E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3395939927CDB6920047814E /* PBXTargetDependency */,
+			);
+			name = "YNPageViewController-swiftTests";
+			productName = "YNPageViewController-swiftTests";
+			productReference = 3395939727CDB6920047814E /* YNPageViewController-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		339593A027CDB6920047814E /* YNPageViewController-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339593B127CDB6920047814E /* Build configuration list for PBXNativeTarget "YNPageViewController-swiftUITests" */;
+			buildPhases = (
+				3395939D27CDB6920047814E /* Sources */,
+				3395939E27CDB6920047814E /* Frameworks */,
+				3395939F27CDB6920047814E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339593A327CDB6920047814E /* PBXTargetDependency */,
+			);
+			name = "YNPageViewController-swiftUITests";
+			productName = "YNPageViewController-swiftUITests";
+			productReference = 339593A127CDB6920047814E /* YNPageViewController-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3395937927CDB6910047814E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3395938027CDB6910047814E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3395939627CDB6920047814E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3395938027CDB6910047814E;
+					};
+					339593A027CDB6920047814E = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3395938027CDB6910047814E;
+					};
+				};
+			};
+			buildConfigurationList = 3395937C27CDB6910047814E /* Build configuration list for PBXProject "YNPageViewController-swift" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3395937827CDB6910047814E;
+			productRefGroup = 3395938227CDB6910047814E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3395938027CDB6910047814E /* YNPageViewController-swift */,
+				3395939627CDB6920047814E /* YNPageViewController-swiftTests */,
+				339593A027CDB6920047814E /* YNPageViewController-swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3395937F27CDB6910047814E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3395939127CDB6920047814E /* LaunchScreen.storyboard in Resources */,
+				3395938E27CDB6920047814E /* Assets.xcassets in Resources */,
+				3395938C27CDB6910047814E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3395939527CDB6920047814E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3395939F27CDB6920047814E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3395937D27CDB6910047814E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3395938927CDB6910047814E /* ViewController.swift in Sources */,
+				3395938527CDB6910047814E /* AppDelegate.swift in Sources */,
+				3395938727CDB6910047814E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3395939327CDB6920047814E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3395939C27CDB6920047814E /* YNPageViewController_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3395939D27CDB6920047814E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339593A627CDB6920047814E /* YNPageViewController_swiftUITests.swift in Sources */,
+				339593A827CDB6920047814E /* YNPageViewController_swiftUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3395939927CDB6920047814E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3395938027CDB6910047814E /* YNPageViewController-swift */;
+			targetProxy = 3395939827CDB6920047814E /* PBXContainerItemProxy */;
+		};
+		339593A327CDB6920047814E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3395938027CDB6910047814E /* YNPageViewController-swift */;
+			targetProxy = 339593A227CDB6920047814E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3395938A27CDB6910047814E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3395938B27CDB6910047814E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3395938F27CDB6920047814E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3395939027CDB6920047814E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		339593A927CDB6920047814E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		339593AA27CDB6920047814E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		339593AC27CDB6920047814E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YNPageViewController-swift/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yn.YNPageViewController.YNPageViewController-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		339593AD27CDB6920047814E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YNPageViewController-swift/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yn.YNPageViewController.YNPageViewController-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		339593AF27CDB6920047814E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yn.YNPageViewController.YNPageViewController-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YNPageViewController-swift.app/YNPageViewController-swift";
+			};
+			name = Debug;
+		};
+		339593B027CDB6920047814E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yn.YNPageViewController.YNPageViewController-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YNPageViewController-swift.app/YNPageViewController-swift";
+			};
+			name = Release;
+		};
+		339593B227CDB6920047814E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yn.YNPageViewController.YNPageViewController-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "YNPageViewController-swift";
+			};
+			name = Debug;
+		};
+		339593B327CDB6920047814E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yn.YNPageViewController.YNPageViewController-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "YNPageViewController-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3395937C27CDB6910047814E /* Build configuration list for PBXProject "YNPageViewController-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339593A927CDB6920047814E /* Debug */,
+				339593AA27CDB6920047814E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339593AB27CDB6920047814E /* Build configuration list for PBXNativeTarget "YNPageViewController-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339593AC27CDB6920047814E /* Debug */,
+				339593AD27CDB6920047814E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339593AE27CDB6920047814E /* Build configuration list for PBXNativeTarget "YNPageViewController-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339593AF27CDB6920047814E /* Debug */,
+				339593B027CDB6920047814E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339593B127CDB6920047814E /* Build configuration list for PBXNativeTarget "YNPageViewController-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339593B227CDB6920047814E /* Debug */,
+				339593B327CDB6920047814E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3395937927CDB6910047814E /* Project object */;
+}
