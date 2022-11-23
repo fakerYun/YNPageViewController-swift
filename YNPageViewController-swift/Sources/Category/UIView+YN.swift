@@ -10,10 +10,10 @@ import UIKit
 
 let kYNPAGE_SCREEN_WIDTH = UIScreen.main.bounds.size.width
 let kYNPAGE_SCREEN_HEIGHT = UIScreen.main.bounds.size.height
-let kYNPAGE_STATUSBAR_HEIGHT = UIApplication.shared.statusBarFrame.size.height
+let kYNPAGE_STATUSBAR_HEIGHT = (UIView.yn_statusBarHeight())
 let kYNPAGE_IS_IPHONE_X = kYNPAGE_STATUSBAR_HEIGHT > 20 ? true:false
 let kYNPAGE_NAVHEIGHT = kYNPAGE_STATUSBAR_HEIGHT + 44.0
-let kYNPAGE_TABBARHEIGHT = kYNPAGE_IS_IPHONE_X ? 83.0 : 49.0
+let kYNPAGE_TABBARHEIGHT = (UIView.yn_safeDistanceBottom() + 49)
 let kLESS_THAN_iOS11 = (UIDevice.current.systemVersion as NSString).integerValue < 11 ? true:false
 
 public extension UIView {
@@ -71,6 +71,27 @@ public extension UIView {
             frame.origin.y = newValue - frame.size.height
             self.frame = frame
         }
+    }
+    
+    class func yn_statusBarHeight() ->CGFloat {
+        if #available(iOS 13.0, *) {
+            let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene
+            let frame = scene?.statusBarManager?.statusBarFrame
+            return frame?.height ?? 0
+        }else {
+            return UIApplication.shared.statusBarFrame.size.height
+        }
+    }
+    
+    class func yn_safeDistanceBottom() ->CGFloat {
+        if #available(iOS 13.0, *) {
+            let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene
+            let window = scene?.windows.first
+            return window?.safeAreaInsets.bottom ?? 0
+        }else if #available(iOS 11.0, *) {
+            return UIApplication.shared.windows.first?.safeAreaInsets.bottom ?? 0
+        }
+        return 0
     }
     
 }
